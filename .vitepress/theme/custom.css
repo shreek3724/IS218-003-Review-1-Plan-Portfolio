@@ -62,3 +62,71 @@
   transform: translateY(-3px);
   box-shadow: 0 14px 30px rgb(30 27 75 / 0.1);
 }
+
+.direction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.direction-card,
+.selected-direction-card {
+  padding: 1.5rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 8px 24px rgb(30 27 75 / 0.06);
+}
+
+.direction-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.direction-card::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--vp-c-brand-1);
+  content: '';
+}
+
+.direction-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgb(30 27 75 / 0.12);
+}
+
+.direction-card h3,
+.selected-direction-card h2 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.direction-label {
+  margin-bottom: 0.65rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.selected-direction-card {
+  margin: 1.5rem 0;
+  border-color: #fcd34d;
+  background: linear-gradient(135deg, #fffbeb, var(--vp-c-bg-soft));
+}
+
+.selected-direction-card .status-badge {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  .direction-grid {
+    grid-template-columns: 1fr;
+  }
+}

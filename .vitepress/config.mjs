@@ -10,12 +10,14 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
       { text: 'Project Record', link: '/project-record' }
     ],
     sidebar: [
       {
         text: 'Documentation',
         items: [
+          { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
           { text: 'Project Record', link: '/project-record' }
         ]
       }
