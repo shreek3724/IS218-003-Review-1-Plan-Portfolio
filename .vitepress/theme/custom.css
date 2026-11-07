@@ -205,6 +205,99 @@
   background: #fffbeb;
 }
 
+.brand-overview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.brand-overview-card,
+.visual-direction-card,
+.persuasion-card {
+  padding: 1.5rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 8px 24px rgb(30 27 75 / 0.06);
+}
+
+.brand-overview-card h2,
+.visual-direction-card h2,
+.persuasion-card h3 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.visual-direction-grid,
+.persuasion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.visual-direction-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.visual-direction-card--a {
+  border-color: #fcd34d;
+  background: linear-gradient(145deg, #fffbeb, var(--vp-c-bg-soft));
+}
+
+.visual-direction-card--a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: var(--vp-c-brand-1);
+  content: '';
+}
+
+.visual-direction-card--b {
+  border-color: #312e81;
+  color: #e0e7ff;
+  background: #1e1b4b;
+}
+
+.visual-direction-card--b h2,
+.visual-direction-card--b .direction-label {
+  color: #fef08a;
+}
+
+.selected-visual-card {
+  margin: 1.5rem 0;
+  padding: 1.75rem;
+  border: 1px solid #fcd34d;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fffbeb, #faf9f5);
+  box-shadow: 0 14px 32px rgb(30 27 75 / 0.1);
+}
+
+.selected-visual-card h2 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.persuasion-card {
+  border-top: 5px solid var(--vp-c-brand-1);
+}
+
+.persuasion-card p + p {
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .brand-overview,
+  .visual-direction-grid,
+  .persuasion-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
   .direction-grid {
     grid-template-columns: 1fr;

@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
       { text: 'Step 2: Reader Persona & Promise', link: '/docs/reader-promise' },
+      { text: 'Step 3: Brand & Design', link: '/docs/brand-design' },
       { text: 'Project Record', link: '/project-record' }
     ],
     sidebar: [
@@ -20,6 +21,7 @@ export default defineConfig({
         items: [
           { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
           { text: 'Step 2: Reader Persona & Promise', link: '/docs/reader-promise' },
+          { text: 'Step 3: Brand & Design', link: '/docs/brand-design' },
           { text: 'Project Record', link: '/project-record' }
         ]
       }
