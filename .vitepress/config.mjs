@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
+      { text: 'Step 2: Reader Persona & Promise', link: '/docs/reader-promise' },
       { text: 'Project Record', link: '/project-record' }
     ],
     sidebar: [
@@ -18,6 +19,7 @@ export default defineConfig({
         text: 'Documentation',
         items: [
           { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
+          { text: 'Step 2: Reader Persona & Promise', link: '/docs/reader-promise' },
           { text: 'Project Record', link: '/project-record' }
         ]
       }

@@ -125,8 +125,92 @@
   margin-bottom: 1rem;
 }
 
+.promise-card {
+  position: relative;
+  margin: 1.5rem 0;
+  padding: 1.6rem;
+  overflow: hidden;
+  border: 1px solid #fcd34d;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fffbeb 0%, #faf9f5 65%);
+  box-shadow: 0 12px 28px rgb(30 27 75 / 0.08);
+}
+
+.promise-card::after {
+  position: absolute;
+  top: -2.75rem;
+  right: -1.75rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: rgb(254 240 138 / 0.55);
+  content: '';
+}
+
+.promise-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.promise-card h2,
+.persona-card h2 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.promise-statement {
+  max-width: 50rem;
+  margin: 0.65rem 0 0;
+  color: var(--vp-c-text-1);
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.brand-identity {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.identity-chip {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 999px;
+  color: var(--vp-c-text-2);
+  background: rgb(255 255 255 / 0.72);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.persona-card {
+  padding: 1.5rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 8px 24px rgb(30 27 75 / 0.06);
+}
+
+.persona-card--promise {
+  grid-column: 1 / -1;
+  border-color: #fcd34d;
+  background: #fffbeb;
+}
+
 @media (max-width: 640px) {
   .direction-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .persona-grid {
     grid-template-columns: 1fr;
   }
 }

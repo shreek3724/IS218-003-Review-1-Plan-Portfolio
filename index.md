@@ -1,5 +1,18 @@
 # Portfolio Development Documentation, Research and Planning
 
+<div class="promise-card">
+  <p class="direction-label">Portfolio promise</p>
+  <p class="promise-statement">For an AI internship reviewer in creative fields, this portfolio makes it easy to see prototyping skills and user-centered design, and to use this information to initiate a conversation.</p>
+  <p><strong>Voice Words:</strong></p>
+  <div class="brand-identity">
+    <span class="identity-chip">Approachable</span>
+    <span class="identity-chip">Inviting</span>
+    <span class="identity-chip">Curious</span>
+    <span class="identity-chip">The Creator</span>
+  </div>
+  <p><strong>Brand Archetype:</strong> The Creator (Focus on original invention, and intuitive and user-centered design)</p>
+</div>
+
 <div class="status-badge">Step 0 — Initial deployment ready</div>
 
 <div class="planning-card">
@@ -9,6 +22,6 @@
 
 ## Project progress
 
-The site foundation is in place. The documentation pages for the four planning steps will be added as the project progresses.
+The site foundation is in place. Steps 1 and 2 are documented, with brand direction and user stories to follow.
 
 [View the project record](/project-record)
