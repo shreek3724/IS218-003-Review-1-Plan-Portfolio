@@ -2,6 +2,20 @@
 
 ## Issues & Links Record
 
+Issue 1: Step 0: Initial set Up: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/1
+
+
+Issue 2: Step 1: Chosen Target: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/2
+
+
+Issue 3: Step 2: Reader Persona & Promise: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/3
+
+
+Issue 4: Step 3: Brand & Design Choices: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/4
+
+
+Issue 5: Step 4: User Stories & Specifications: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/5
+
 
 ## Step 1 (Chosen Target)
 

@@ -22,6 +22,6 @@
 
 ## Project progress
 
-The site foundation is in place. Steps 1 and 2 are documented, with brand direction and user stories to follow.
+The site foundation is in place. All four planning steps are documented and ready to guide the next portfolio-build phase.
 
 [View the project record](/project-record)

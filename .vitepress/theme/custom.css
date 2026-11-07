@@ -290,6 +290,67 @@
   margin-top: 1rem;
 }
 
+.story-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.story-card {
+  padding: 1.6rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 18px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 8px 24px rgb(30 27 75 / 0.06);
+}
+
+.story-card h2 {
+  margin-top: 0;
+  color: var(--vp-c-text-1);
+}
+
+.story-card--credentials {
+  border-color: #fcd34d;
+  background: linear-gradient(135deg, #fffbeb, var(--vp-c-bg-soft));
+}
+
+.story-card--navigation {
+  border-color: #c7d2fe;
+}
+
+.story-text {
+  max-width: 58rem;
+  color: var(--vp-c-text-1);
+  font-size: 1.05rem;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.acceptance-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.acceptance-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 10px;
+  background: rgb(255 255 255 / 0.72);
+}
+
+.acceptance-list input[type='checkbox'] {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.23rem;
+  accent-color: var(--vp-c-brand-1);
+}
+
 @media (max-width: 640px) {
   .brand-overview,
   .visual-direction-grid,
