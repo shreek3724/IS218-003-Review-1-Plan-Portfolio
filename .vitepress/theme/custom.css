@@ -1,0 +1,64 @@
+:root {
+  --vp-c-bg: #fbfbfa;
+  --vp-c-bg-soft: #faf9f5;
+  --vp-c-bg-alt: #f4f3ee;
+  --vp-c-text-1: #1e1b4b;
+  --vp-c-text-2: #3730a3;
+  --vp-c-border: #e0e0d8;
+  --vp-c-brand-1: #f59e0b;
+  --vp-c-brand-2: #d97706;
+  --vp-c-brand-3: #b45309;
+  --badge-yellow-bg: #fef08a;
+  --badge-yellow-text: #713f12;
+}
+
+.VPNavBar,
+.VPNavBar.has-sidebar .content {
+  background-color: color-mix(in srgb, var(--vp-c-bg) 94%, transparent);
+}
+
+.VPButton.brand {
+  border-color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-1);
+}
+
+.VPButton.brand:hover {
+  border-color: var(--vp-c-brand-2);
+  background-color: var(--vp-c-brand-2);
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #fde047;
+  border-radius: 999px;
+  color: var(--badge-yellow-text);
+  background: var(--badge-yellow-bg);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.status-badge::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  content: '';
+}
+
+.planning-card {
+  margin: 1.5rem 0;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: 0 8px 24px rgb(30 27 75 / 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.planning-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgb(30 27 75 / 0.1);
+}
