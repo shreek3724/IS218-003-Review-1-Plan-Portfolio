@@ -43,7 +43,8 @@ export default defineConfig({
       {
         text: 'Resources',
         items: [
-          { text: 'Project Record', link: '/project-record' }
+          { text: 'Project Record', link: '/project-record' },
+          { text: 'Creative Game Planning, Research & Documentation', link: 'https://shreek3724.github.io/IS218-Review-1-Plan-Creative-Game/', target: '_blank', rel: 'noopener noreferrer' }
         ]
       }
     ],
@@ -51,7 +52,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio' }
     ],
     footer: {
-      message: 'IS218-003 — Review 1 — Plan — Portfolio · <a href="https://shreek3724.github.io/IS218-Review-1-Plan-Creative-Game/" target="_blank" rel="noopener noreferrer">Creative Game planning, research and documentation</a>',
+      message: 'IS218-003 — Review 1 — Plan — Portfolio',
       copyright: 'Built with VitePress'
     }
   }
