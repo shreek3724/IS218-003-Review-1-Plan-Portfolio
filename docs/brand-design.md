@@ -8,7 +8,7 @@
   <article class="brand-overview-card">
     <p class="direction-label">Voice words</p>
     <h2>Approachable, inviting, curious</h2>
-    <p>Voice Words: Approachable, inviting, curious</p>
+    <p>Sets an open, engaging, and exploratory tone across the portfolio.</p>
   </article>
   <article class="brand-overview-card">
     <p class="direction-label">Brand archetype</p>
@@ -23,9 +23,9 @@
   <article class="visual-direction-card visual-direction-card--a">
     <p class="direction-label">Direction A — selected</p>
     <h2>Approachable Creative Minimalist</h2>
-    <p><strong>Visual Concept:</strong> A clean, uncluttered layout with ample whitespace, crisp modern typography, and a warm, inviting color palette (e.g., soft off-white canvas with vibrant amber, butter-yellow, and indigo accents).</p>
-    <p><strong>Visual Reference / Adapted Idea:</strong> Inspired by modern creative software landing pages (such as Figma and OpenArt web UIs). Adapts clean card containers and playful micro-interactions to make technical prototypes easy and fun to explore. Example reference website link: <a href="https://www.lamagadan.studio/" target="_blank" rel="noopener noreferrer">https://www.lamagadan.studio/</a></p>
-    <p><strong>Tradeoff / Rationale:</strong> Keeps the UI lightweight and scannable for busy reviewers while presenting an energetic, friendly personality suited for creative AI product roles.</p>
+    <p><strong>Visual Concept:</strong> A clean, uncluttered layout with ample whitespace, crisp modern typography, and a warm, inviting color palette (e.g., soft off-white canvas with vibrant amber, butter-yellow, and indigo accents) </p>
+    <p><strong>Visual Reference / Adapted Idea:</strong> Inspired by modern creative landing pages (such as Figma and OpenArt web UIs). Uses clean card containers and playful micro-interactions for fun exploration. Example reference website link: <a href="https://www.lamagadan.studio/" target="_blank" rel="noopener noreferrer">https://www.lamagadan.studio/</a></p>
+    <p><strong>Tradeoff / Rationale:</strong> Keeps the UI lightweight and scannable while conveying an energetic personality suited for creative AI roles</p>
   </article>
   <article class="visual-direction-card visual-direction-card--b">
     <p class="direction-label">Direction B</p>
@@ -49,12 +49,12 @@
     <p class="direction-label">Choice 1</p>
     <h3>Live Interactive Demos &amp; Inspectable Repositories</h3>
     <p><strong>Purpose:</strong> Provides direct proof of technical execution, and working user interfaces rather than relying on static screenshots.</p>
-    <p><strong>Honest Limitation:</strong> Proves web prototyping competence, but does not by itself prove backend performance, or design and thinking approaches.</p>
+    <p><strong>Honest Limitation:</strong> Demonstrates prototyping competence, but not backend performance or backend design thinking.</p>
   </article>
   <article class="persuasion-card">
     <p class="direction-label">Choice 2</p>
     <h3>Documented User Feedback &amp; Iteration Notes</h3>
     <p><strong>Purpose:</strong> Demonstrates user-centered thinking by showing how artist feedback directly influenced feature choices.</p>
-    <p><strong>Honest Limitation:</strong> Shows design judgment and willingness to learn, but can be overly lengthy, and difficult for a reviewer to understand in a short time frame.</p>
+    <p><strong>Honest Limitation:</strong> Shows design judgment, but detailed notes can be time-consuming for busy reviewers to parse quickly. </p>
   </article>
 </div>
