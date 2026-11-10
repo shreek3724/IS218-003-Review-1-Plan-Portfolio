@@ -28,6 +28,10 @@ export default defineConfig({
     ],
     sidebar: [
       {
+        text: 'Home',
+        link: '/'
+      },
+      {
         text: 'Documentation',
         items: [
           { text: 'Step 1: Target Direction', link: '/docs/target-direction' },
