@@ -16,12 +16,20 @@ Issue 4: Step 3: Brand & Design Choices: https://github.com/shreek3724/IS218-003
 
 Issue 5: Step 4: User Stories & Specifications: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/5
 
-
-Issue 6: Changed - Peer Feedback Issue Update: Home Button Location: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/6
-
+Issue #6: Peer Feedback Issue Update:
 Confirmed/Changed the primary target direction of Creative AI Product Builder as the concept, after discussion on my decision with peer.
-
 Added the “Home” button to the left side navigation bar for easier navigation, as per peer feedback described in issue, above the “Documentation” Tab, linked to the Homepage, ensuring consistency in design of website.
+https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/6
+
+Issue #9: Peer Feedback Issue Update: Add Website Link to README
+https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/9
+
+Issue #10: Peer Feedback Issue Update: Update Card Wording on Target Direction
+https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/10
+
+Issue #11: Peer Feedback Issue Update: Revise Choice 2 Documentation
+https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/11
+
 
 ## Step 1 (Chosen Target)
 
