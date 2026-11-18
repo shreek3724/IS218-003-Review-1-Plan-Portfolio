@@ -1,5 +1,17 @@
 # Project Record — IS218 Portfolio Plan
 
+## Portfolio First Slice Issues & Links Record
+
+- [Portfolio First Slice Repo](https://github.com/shreek3724/IS218-Portfolio)
+- [Portfolio First Slice Website](https://shreek3724.github.io/IS218-Portfolio/)
+
+- [Issue #1: Step 1: Initial set up instructions described in “Step 1”](https://github.com/shreek3724/IS218-Portfolio/issues/1)
+- [Issue #2: Step 2: Build out structure of presentation option 1, do not fill in the wordy content and information etc. yet.](https://github.com/shreek3724/IS218-Portfolio/issues/2)
+- [Issue #3: Step 3: Build presentation option 1 fully.](https://github.com/shreek3724/IS218-Portfolio/issues/3)
+- [Issue #4: Step 4: Build out structure of presentation option 2, do not fill in the wordy content and information etc. yet.](https://github.com/shreek3724/IS218-Portfolio/issues/4)
+- [Issue #5: Step 5: Build presentation option 2 fully.](https://github.com/shreek3724/IS218-Portfolio/issues/5)
+- [Issue #6: PEER FEEDBACK: Buttons and sectioning](https://github.com/shreek3724/IS218-Portfolio/issues/6)
+
 ## Issues & Links Record
 
 Issue 1: Step 0: Initial set Up: https://github.com/shreek3724/IS218-003-Review-1-Plan-Portfolio/issues/1
