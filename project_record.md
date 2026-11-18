@@ -11,6 +11,7 @@
 - [Issue #4: Step 4: Build out structure of presentation option 2, do not fill in the wordy content and information etc. yet.](https://github.com/shreek3724/IS218-Portfolio/issues/4)
 - [Issue #5: Step 5: Build presentation option 2 fully.](https://github.com/shreek3724/IS218-Portfolio/issues/5)
 - [Issue #6: PEER FEEDBACK: Buttons and sectioning](https://github.com/shreek3724/IS218-Portfolio/issues/6)
+- [Issue #7: Update with Creative Game Project items](https://github.com/shreek3724/IS218-Portfolio/issues/7)
 
 ## Issues & Links Record
 
