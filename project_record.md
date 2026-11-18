@@ -12,6 +12,7 @@
 - [Issue #5: Step 5: Build presentation option 2 fully.](https://github.com/shreek3724/IS218-Portfolio/issues/5)
 - [Issue #6: PEER FEEDBACK: Buttons and sectioning](https://github.com/shreek3724/IS218-Portfolio/issues/6)
 - [Issue #7: Update with Creative Game Project items](https://github.com/shreek3724/IS218-Portfolio/issues/7)
+- [Issue #8: Update with Group Project Items](https://github.com/shreek3724/IS218-Portfolio/issues/8)
 
 ## Issues & Links Record
 
