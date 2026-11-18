@@ -43,7 +43,14 @@ export default defineConfig({
       {
         text: 'Resources',
         items: [
-          { text: 'Project Record', link: '/project-record' },
+          {
+            text: 'Project Record',
+            link: '/project-record',
+            items: [
+              { text: 'Original Portfolio Planning', link: '/project-record#issues-links-record' },
+              { text: 'Portfolio First Slice', link: '/project-record#portfolio-first-slice-issues-links-record' }
+            ]
+          },
           { text: 'Creative Game Planning, Research & Documentation', link: 'https://shreek3724.github.io/IS218-Review-1-Plan-Creative-Game/', target: '_blank', rel: 'noopener noreferrer' }
         ]
       }
